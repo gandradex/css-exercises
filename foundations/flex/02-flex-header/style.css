@@ -1,10 +1,10 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 900;
   color: tomato;
   background: white;
@@ -17,9 +17,53 @@ ul {
 }
 
 a {
-  font-size: 22px;
+  font-size: 16px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* ----- SOLUTION ----- */
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+
+.logo {
+  margin: 10px;
+  align-content: center;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
+/* On screens that are 900px wide or less */
+@media screen and (max-width: 900px) {
+  ul {
+    height: 100px;
+  }
+
+  .logo {
+    font-size: 48px;
+  }
+
+  a {
+    font-size: 22px;
+  }
 }

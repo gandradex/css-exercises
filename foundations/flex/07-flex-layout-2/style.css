@@ -28,14 +28,13 @@ body {
   border-radius: 4px;
 }
 
-/* ------ SOLUTION -------- */
+/* ------ SOLUTION --------
 
 ul {
   list-style-type: none;
 }
 
 a {
-  /* this removes the line under our links */
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -52,7 +51,7 @@ a {
 }
 
 .header_text {
-   /* border: red 2px solid;  */
+
   flex: 1 1;
 }
 
@@ -88,10 +87,10 @@ ul {
 }
 
 .content {
-display: flex;
-flex-flow: row wrap;
-gap: 20px;
-padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 30px;
 }
 
 .content .card {
@@ -99,3 +98,9 @@ padding: 30px;
   width: 300px;
   padding: 20px;
 }
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  height: 30px;
+} */
